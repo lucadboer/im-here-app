@@ -22,6 +22,7 @@ export const styles = StyleSheet.create({
 
   form: {
     marginTop: 8,
+    marginBottom: 16,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent:'center',

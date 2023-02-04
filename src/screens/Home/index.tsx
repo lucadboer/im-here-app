@@ -22,6 +22,8 @@ export default function Home() {
       </View>
 
       <Participant />
+      <Participant />
+      <Participant />
     </View>
   );
 }
