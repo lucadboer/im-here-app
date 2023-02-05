@@ -54,6 +54,14 @@ export const styles = StyleSheet.create({
   textButton: {
     fontSize: 24,
     color: '#f2f2f2',
+  },
+
+  empityText: {
+    marginTop: 16,
+
+    fontSize: 18,
+    color: '#fff',
+    textAlign: 'center',
   }
 
 });
