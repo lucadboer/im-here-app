@@ -1,39 +1,46 @@
+import { useState } from 'react';
 import { Alert, FlatList, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { Participant } from '../../components/Participant';
 import { styles } from './styles';
 
 export default function Home() {
 
-  const participants = ['mae', 'pai', 'heloisa', 'bruno','mae', 'pai', 'heloisa', 'bruno','mae', 'pai', 'heloisa', 'bruno']
+  const [participants, setParticipants] = useState<string[]>([])
+  const [name, setName] = useState('')
 
   function handleAddParticipant() {
-    if (participants.includes('heloisa')) {
+    if (participants.includes(name)) {
       return Alert.alert("Participante existe", "Já existe esse nome na sua lista de participantes")
     }
-    console.log('add name');
+
+    setParticipants(state => [...state, name])
+    setName('')
+    
   }
 
-  function handleRemoveParticipant(name: string) {
-    Alert.alert('Remover', `Remover o participante ${name}?`, [
-      {
-        text: 'Sim',
-        onPress: () => {Alert.alert('Participante deletado!')}
-      },
+  function handleRemoveParticipant(nameToRemoved: string) {
+    Alert.alert('Remover', `Remover o participante ${nameToRemoved}?`, [
       {
         text: 'Não',
         style: 'cancel'
-      }
+      },
+      {
+        text: 'Sim',
+        onPress: () => {
+          setParticipants(state => state.filter(participant => participant !== nameToRemoved))
+        }
+      },
     ])
-    console.log('remove');
+
   }
 
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Luca's Party</Text>
-      <Text style={styles.guests}>Convidados :)</Text>
+      <Text style={styles.guests}>Quantidade de convidados: {participants.length}</Text>
 
       <View style={styles.form}>
-        <TextInput style={styles.input} placeholder='Quem é você?' />
+        <TextInput style={styles.input} placeholder='Faala dele?' onChangeText={setName} value={name} />
 
         <TouchableOpacity style={styles.button} onPress={handleAddParticipant}>
           <Text style={styles.textButton}>+</Text>
