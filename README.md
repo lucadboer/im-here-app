@@ -2,11 +2,11 @@
 
 <p align="center">
     
-<span align="center">
+<span>
     <img height="500" src="./github/preview1.png">
-    <span>---</span>
+    .............
     <img height="500" src="./github/preview2.png">
-    <span>---</span>
+    .............
     <img height="500" src="./github/preview3.png">
 </span>
     
@@ -16,7 +16,7 @@
 
 App construído para treinar e fixar os fundamentos do React Native utilizando o ambiente do Expo. A ideia do app foi de criar uma lista de convidados para alguma festa que o usuário deseja realizar. De certa forma simples, porém praticando bastante os fundamentos.
 
-This application was developed through a Rocketseat challenge, where the purpose was to simulate an e-commerce t-shirts, with end-to-end communication until the customer's order is completed. The SSG and SSR concept of Next.js was applied a lot, file system routing, and using the stripe API to fetch the product and create a new purchase/order
+App built to train and fix the fundamentals of React Native using the Expo environment. The idea of ​​the app was to create a guest list for any party that the user wants to hold. In a simple way, but practicing the fundamentals a lot.
 
 ## 🛠 Technologies
 
