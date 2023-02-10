@@ -1,8 +1,16 @@
 # I'm Here
 
-![preview1](./github/preview1.png)
-![preview2](./github/preview2.png)
-![preview3](./github/preview3.png)
+<p align="center">
+    
+<span align="center">
+    <img height="500" src="./github/preview1.png">
+    <span>---</span>
+    <img height="500" src="./github/preview2.png">
+    <span>---</span>
+    <img height="500" src="./github/preview3.png">
+</span>
+    
+</p>
 
 > React Native
 
@@ -51,10 +59,12 @@ $ yarn install
 ```
 $ npm start
 or
-$ yarn run dev
+$ yarn start
 ```
 
 ### Baixe o app do expo-go no seu dispositivo móvel neste link: https://expo.dev/client | Download the expo-go app on your mobile device at this link: https://expo.dev/client 
+
+##
 
 ### Then scan the QR Code generated in the application directory terminal after running npm start
 
