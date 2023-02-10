@@ -1,36 +1,65 @@
-# TypeScript Example
+# I'm Here
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+![preview1](./github/preview1.png)
+![preview2](./github/preview2.png)
+![preview3](./github/preview3.png)
 
-```sh
-npx create-react-native-app -t with-typescript
+> React Native
+
+App construído para treinar e fixar os fundamentos do React Native utilizando o ambiente do Expo. A ideia do app foi de criar uma lista de convidados para alguma festa que o usuário deseja realizar. De certa forma simples, porém praticando bastante os fundamentos.
+
+This application was developed through a Rocketseat challenge, where the purpose was to simulate an e-commerce t-shirts, with end-to-end communication until the customer's order is completed. The SSG and SSR concept of Next.js was applied a lot, file system routing, and using the stripe API to fetch the product and create a new purchase/order
+
+## 🛠 Technologies
+
+- React Native
+- TypeScript
+- Expo
+
+## 🧑‍💻 Applications
+
+- React Hooks
+- Stylesheets
+- Flatlist
+- Immutability
+- Props
+- Components
+
+## 🪄 How to use?
+
+### Abra o terminal e copie este repositório em alguma pasta com o comando | Open terminal and copy this repository at some dir with the comand
+```
+$ git clone https://github.com/lucadboer/im-here-app.git
 ```
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+### Acesse a pasta do projeto no prompt de comando ou pelo mouse | Access dir of the project in cmd or by mouse
 
-## 🚀 How to use
+```
+$ cd im-here-app
+```
 
-#### Creating a new project
+### Instale as dependências da aplicação | Install the dependecies of the application
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+```
+$ npm install
+or
+$ yarn install
+```
 
-### Adding TypeScript to existing projects
+### Execute a aplicação | Run the application
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+```
+$ npm start
+or
+$ yarn run dev
+```
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
+### Baixe o app do expo-go no seu dispositivo móvel neste link: https://expo.dev/client | Download the expo-go app on your mobile device at this link: https://expo.dev/client 
 
-## 📝 Notes
+### Then scan the QR Code generated in the application directory terminal after running npm start
 
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+## 💛 Contact
+
+- Email --> luca.boer@outlook.com
+- Linkedin --> https://www.linkedin.com/in/luca-destefano-boer/
+- Portfolio --> https://about-luca.vercel.app/
